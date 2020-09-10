@@ -64,6 +64,9 @@ class MyJPanelF extends JPanel{
                         if(x[i]>1024){
                             x[i]=0;
                         }
+                        if(s>500){
+                            s = 0;
+                        }
                     }
                 try {
                     Thread.sleep(30);
